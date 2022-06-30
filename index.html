@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game">
+        <div class="house green ghouse">
+            <div class="box">
+                <div class="square square-one green" id="1-green-goti-box">
+                    <div class="green-goti nahi-khuli" id="1-green-goti" name="green1"></div>
+                </div>
+                <div class="square square-two green" id="2-green-goti-box">
+                    <div class="green-goti nahi-khuli" id="2-green-goti" name="green2"></div>
+                </div>
+                <div class="square square-three green" id="3-green-goti-box">
+                    <div class="green-goti nahi-khuli" id="3-green-goti" name="green3"></div>
+                </div>
+                <div class="square square-four green" id="4-green-goti-box">
+                    <div class="green-goti nahi-khuli" id="4-green-goti" name="green4"></div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="house yellow yhouse" style="right: 0">
+            <div class="box">
+                <div class="square square-one yellow" id="1-yellow-goti-box">
+                    <div class="yellow-goti nahi-khuli" id="1-yellow-goti" name="yellow1"></div>
+                </div>
+                <div class="square square-two yellow" id="2-yellow-goti-box" >
+                    <div class="yellow-goti nahi-khuli" id="2-yellow-goti" name="yellow2"></div>
+                </div>
+                <div class="square square-three yellow" id="3-yellow-goti-box">
+                    <div class="yellow-goti nahi-khuli" id="3-yellow-goti" name="yellow3"></div>
+                </div>
+                <div class="square square-four yellow" id="4-yellow-goti-box">
+                    <div class="yellow-goti nahi-khuli" id="4-yellow-goti" name="yellow4"></div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="house red rhouse" style="bottom: 0">
+            <div class="box">
+                <div class="square square-one red" id="1-red-goti-box">
+                    <div class="red-goti nahi-khuli" id="1-red-goti" ></div>
+                </div>
+                <div class="square square-two red" id="2-red-goti-box">
+                    <div class="red-goti nahi-khuli" id="2-red-goti" ></div>
+                </div>
+                <div class="square square-three red" id="3-red-goti-box">
+                    <div class="red-goti nahi-khuli" id="3-red-goti" ></div>
+                </div>
+                <div class="square square-four red" id="4-red-goti-box">
+                    <div class="red-goti nahi-khuli" id="4-red-goti" ></div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="house blue bhouse" style="bottom: 0;right: 0">
+            <div class="box">
+                <div class="square square-one blue" id="1-blue-goti-box">
+                    <div class=" blue-goti nahi-khuli" id="1-blue-goti"></div>
+                </div>
+                <div class="square square-two blue" id="2-blue-goti-box">
+                    <div class=" blue-goti nahi-khuli" id="2-blue-goti"></div>
+                </div>
+                <div class="square square-three blue" id="3-blue-goti-box">
+                    <div class=" blue-goti nahi-khuli" id="3-blue-goti"></div>
+                </div>
+                <div class="square square-four blue" id="4-blue-goti-box">
+                    <div class=" blue-goti nahi-khuli" id="4-blue-goti"></div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="home"></div>
+        <div class="cells green-cell--1 yellow-cell-38 blue-cell-25 red-cell-12" style="top: 40%;"></div> 
+        <div class="cells g-start green-cell-0 yellow-cell-39 blue-cell-26 red-cell-13 chida" style="top: 40%;left:6.66%;"></div>
+        <div class="cells green-cell-1 yellow-cell-40 blue-cell-27 red-cell-14" style="top: 40%;left:13.32%;"></div>
+        <div class="cells green-cell-2 yellow-cell-41 blue-cell-28 red-cell-15" style="top: 40%;left:19.98%;"></div>
+        <div class="cells green-cell-3 yellow-cell-42 blue-cell-29 red-cell-16" style="top: 40%;left:26.64%;"></div>
+        <div class="cells green-cell-4 yellow-cell-43 blue-cell-30 red-cell-17" style="top: 40%;left:33.3%;"></div>
+    
+        <div class="cells green-cell-10 yellow-cell-49 blue-cell-36 red-cell-23" style="top: 0;left:40%;"></div>
+        <div class="cells green-cell-9 yellow-cell-48 blue-cell-35 red-cell-22" style="top: 6.66%;left:40%;"></div>
+       
+
+        <div class="cells safe green-cell-8 yellow-cell-47 blue-cell-34 red-cell-21 chida" style="top: 13.32%;left:40%;"></div>
+        <div class="cells green-cell-7 yellow-cell-46 blue-cell-33 red-cell-20" style="top: 19.98%;left:40%;"></div>
+        <div class="cells green-cell-6 yellow-cell-45 blue-cell-32 red-cell-19" style="top: 26.64%;left:40%;"></div>
+        <div class="cells green-cell-5 yellow-cell-44 blue-cell-31 red-cell-18" style="top: 33.3%;left:40%;"></div>
+    
+        <div class="cells green-cell-11 yellow-cell-50 blue-cell-37 red-cell-24" style="top: 0;left:46.66%;"></div>
+        <div class="cells yellow yellow-cell-51" style="top: 6.66%;left:46.66%;"></div>
+        <div class="cells yellow yellow-cell-52" style="top: 13.32%;left:46.66%;"></div>
+        <div class="cells yellow yellow-cell-53" style="top: 19.98%;left:46.66%;"></div>
+        <div class="cells yellow yellow-cell-54" style="top: 26.64%;left:46.66%;"></div>
+        <div class="cells yellow yellow-cell-55" style="top: 33.3%;left:46.66%;"></div>
+    
+        <div class="cells green-cell-12 yellow-cell--1 blue-cell-38 red-cell-25" style="top: 0;left:53.32%;"></div>
+        <div class="cells y-start green-cell-13 yellow-cell--1 blue-cell-39 red-cell-26 chida" style="top: 6.66%;left:53.32%;"></div>
+        <div class="cells green-cell-14 yellow-cell-1 blue-cell-40 red-cell-27" style="top: 13.32%;left:53.32%;"></div>
+        <div class="cells green-cell-15 yellow-cell-2 blue-cell-41 red-cell-28" style="top: 19.98%;left:53.32%;"></div>
+        <div class="cells green-cell-16 yellow-cell-3 blue-cell-42 red-cell-29" style="top: 26.64%;left:53.32%;"></div>
+        <div class="cells green-cell-17 yellow-cell-4 blue-cell-43 red-cell-30" style="top: 33.3%;left:53.32%;"></div>
+    
+        <div class="cells green-cell-18 yellow-cell-5 blue-cell-44 red-cell-31" style="top: 40%; right: 33.3%"></div>
+        <div class="cells green-cell-19 yellow-cell-6 blue-cell-45 red-cell-32" style="top: 40%;right:26.64%;"></div>
+        <div class="cells green-cell-20 yellow-cell-7 blue-cell-46 red-cell-33" style="top: 40%;right:19.98%;"></div>
+        <div class="cells safe green-cell-21 yellow-cell-8 blue-cell-47 red-cell-34 chida" style="top: 40%;right:13.32%;"></div>
+        <div class="cells green-cell-22 yellow-cell-9 blue-cell-48 red-cell-35" style="top: 40%;right:6.66%;"></div>
+        <div class="cells green-cell-23 yellow-cell-10 blue-cell-49 red-cell-36" style="top: 40%;right:0;"></div>
+    
+        <div class="cells blue blue-cell-55" style="top: 46.66%; right: 33.3%"></div>
+        <div class="cells blue blue-cell-54" style="top: 46.66%;right:26.64%;"></div>
+        <div class="cells blue blue-cell-53" style="top: 46.66%;right:19.98%;"></div>
+        <div class="cells blue blue-cell-52" style="top: 46.66%;right:13.32%;"></div>
+        <div class="cells blue blue-cell-51" style="top: 46.66%;right:6.66%;"></div>
+        <div class="cells green-cell-24 yellow-cell-11 blue-cell-50 red-cell-37" style="top: 46.66%;right:0;"></div>
+    
+        <div class="cells green-cell-30 yellow-cell-17 blue-cell-4 red-cell-43" style="top: 53.32%; right: 33.3%"></div>
+        <div class="cells green-cell-29 yellow-cell-16 blue-cell-3 red-cell-42" style="top: 53.32%;right:26.64%;"></div>
+        <div class="cells green-cell-28 yellow-cell-15 blue-cell-2 red-cell-41" style="top: 53.32%;right:19.98%;"></div>
+        <div class="cells green-cell-27 yellow-cell-14 blue-cell-1 red-cell-40" style="top: 53.32%;right:13.32%;"></div>
+        <div class="cells b-start green-cell-26 yellow-cell-13 blue-cell-0 red-cell-39 chida" style="top: 53.32%;right:6.66%;"></div>
+        <div class="cells green-cell-25 yellow-cell-12 blue-cell--1 red-cell-38" style="top: 53.32%;right:0;"></div>
+    
+        <div class="cells green-cell-36 yellow-cell-13 yellow-cell-23 blue-cell-10 red-cell-49" style="bottom: 0;left:53.32%;"></div>
+        <div class="cells green-cell-35 yellow-cell-22 blue-cell-9 red-cell-48" style="bottom: 6.66%;left:53.32%;"></div>
+        <div class="cells safe green-cell-34 yellow-cell-21 blue-cell-8 red-cell-47 chida" style="bottom: 13.32%;left:53.32%;"></div>
+        <div class="cells green-cell-33 yellow-cell-20 blue-cell-7 red-cell-46" style="bottom: 19.98%;left:53.32%;"></div>
+        <div class="cells green-cell-32 yellow-cell-19 blue-cell-6 blue-cell-6 red-cell-45" style="bottom: 26.64%;left:53.32%;"></div>
+        <div class="cells green-cell-31 yellow-cell-18 blue-cell-5 red-cell-44" style="bottom: 33.3%;left:53.32%;"></div>
+    
+        <div class="cells green-cell-37 yellow-cell-24 blue-cell-11 red-cell-50" style="bottom: 0;left:46.66%;"></div>
+        <div class="cells red red-cell-51" style="bottom: 6.66%;left:46.66%;"></div>
+        <div class="cells red red-cell-52" style="bottom: 13.32%;left:46.66%;"></div>
+        <div class="cells red red-cell-53" style="bottom: 19.98%;left:46.66%;"></div>
+        <div class="cells red red-cell-54" style="bottom: 26.64%;left:46.66%;"></div>
+        <div class="cells red red-cell-55" style="bottom: 33.3%;left:46.66%;"></div>
+    
+        <div class="cells green-cell-38 yellow-cell-25 blue-cell-12 red-cell--1" style="bottom: 0;left:40%;"></div>
+        <div class="cells r-start green-cell-39 yellow-cell-26 blue-cell-13 red-cell-0 chida" style="bottom: 6.66%;left:40%;"></div>
+        <div class="cells green-cell-40 yellow-cell-27 blue-cell-14 red-cell-1" style="bottom: 13.32%;left:40%;"></div>
+        <div class="cells green-cell-41 yellow-cell-28 blue-cell-15 red-cell-2" style="bottom: 19.98%;left:40%;"></div>
+        <div class="cells green-cell-42 yellow-cell-29 blue-cell-16 red-cell-3" style="bottom: 26.64%;left:40%;"></div>
+        <div class="cells green-cell-43 yellow-cell-30 blue-cell-17 red-cell-4" style="bottom: 33.3%;left:40%;"></div>
+    
+        <div class="cells green-cell-44 yellow-cell-31 blue-cell-18 red-cell-5" style="top: 53.32%; left: 33.3%"></div>
+        <div class="cells green-cell-45 yellow-cell-32 blue-cell-19 red-cell-6" style="top: 53.32%;left:26.64%;"></div>
+        <div class="cells green-cell-46 yellow-cell-33 blue-cell-20 red-cell-7" style="top: 53.32%;left:19.98%;"></div>
+        <div class="cells safe green-cell-47 yellow-cell-34 blue-cell-21 red-cell-8 chida" style="top: 53.32%;left:13.32%;"></div>
+        <div class="cells green-cell-48 yellow-cell-35 blue-cell-22 red-cell-9" style="top: 53.32%;left:6.66%;"></div>
+        <div class="cells green-cell-49 yellow-cell-36 blue-cell-23 red-cell-10" style="top: 53.32%;left:0;"></div>
+    
+        <div class="cells green green-cell-55 red-cell-11" style="top: 46.66%;left: 33.3%"></div>
+        <div class="cells green green-cell-54" style="top: 46.66%;left:26.64%;"></div>
+        <div class="cells green green-cell-53" style="top: 46.66%;left:19.98%;"></div>
+        <div class="cells green green-cell-52" style="top: 46.66%;left:13.32%;"></div>
+        <div class="cells green green-cell-51" style="top: 46.66%;left:6.66%;"></div>
+        <div class="cells green-cell-50 yellow-cell-37 blue-cell-24" style="top: 46.66%;left:0;"></div>
+    
+    
+    </div>
+
+    <div class="dice">
+        <img src="images/dice1.png" width="50px" id="dice-image" alt="">
+    </div>
+
+    <div id="result">
+hgvhjcds
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+<embed src="2.mp3" autostart="true" loop="infinite"
+width="2" height="0">
+</embed>
